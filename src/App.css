@@ -134,3 +134,8 @@ nav {
   padding: 20px;
   font-size: 2em;
 }
+.about {
+  background: rgba(0, 0, 0, 0.35);
+  padding: 25px 30px;
+  margin-top: 80px;
+}
