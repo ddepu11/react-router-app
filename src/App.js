@@ -18,7 +18,7 @@ function App() {
         <Navbar />
         <main className="hero">
           <Switch>
-            <Route path="/" exact>
+            <Route path="/">
               <Home />
             </Route>
 
