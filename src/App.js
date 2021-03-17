@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import About from "./Components/About";
-import Cart from "./Components/Cart";
+import Contact from "./Components/Contact";
 import Error from "./Components/Error";
 import Product from "./Components/Product";
 
@@ -26,8 +26,8 @@ function App() {
               <About />
             </Route>
 
-            <Route path="/Cart">
-              <Cart />
+            <Route path="/contact">
+              <Contact />
             </Route>
 
             <Route path="/product/:id" children={<Product />} />

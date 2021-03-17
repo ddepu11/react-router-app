@@ -134,8 +134,60 @@ nav {
   padding: 20px;
   font-size: 2em;
 }
-.about {
+.contact {
   background: rgba(0, 0, 0, 0.35);
   padding: 25px 30px;
-  margin-top: 80px;
+  width: 50%;
+  margin-top: 20px;
+  color: #dddd;
+}
+.contact h1 {
+  font-size: 2em;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.contact p {
+  font-size: 0.85em;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.contact p {
+  font-size: 0.85em;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-top: 25px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+.contact-types {
+  margin-top: 50px;
+}
+.common {
+  justify-content: flex-start;
+  padding: 15px 0px;
+  font-size: 1.2em;
+}
+.common span {
+  margin-left: 30px;
+  letter-spacing: 1px;
+  font-size: 0.8em;
+}
+.about {
+  background: rgba(0, 0, 0, 0.35);
+  padding: 40px 40px;
+  margin-top: 40px;
+}
+.about h2 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.5em;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  line-height: 1.8;
+  color: #dddd;
 }
