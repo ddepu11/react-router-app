@@ -14,7 +14,7 @@ function App() {
   useFetch(url);
   return (
     <div className="container">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Navbar />
         <main className="hero">
           <Switch>
